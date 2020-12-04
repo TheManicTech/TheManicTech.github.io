@@ -1,1 +1,0 @@
-# TheManicTech.github.io
