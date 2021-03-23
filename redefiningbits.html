@@ -4,6 +4,7 @@
 
 
 
+
   
   <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>The Manic Thought Repository</title></head><body>
 <table style="text-align: left; width: 100%; height: 100%;" border="0" cellpadding="0" cellspacing="0">
@@ -72,6 +73,31 @@ though, it'll have been worth every minute. Details in the pdf
 below.<br>
             <br>
             <a href="redefiningbits.pdf">RedefiningBits.pdf</a><br>
+            <br>
+            <br>
+Addendum.<br>
+A couple details that didn't make it into the pdf, which I may add during a later edit, but for now will remain here.<br>
+            <br>
+First, tri-state logic.<br>
+Modern electronics don't use binary, full stop. While the calculations
+are in binary, the calculating is done in hardware that is a form of
+trinary. With tri-state logic, we have a high state, a low state, and a
+high z (disconnected) state, this is three distinct states, this is
+trinary (or ternary if you prefer). This is why I decided to call all
+this high-state, I see it as a logical extension of tri-state. A true
+binary system would be something built purely in DRL(Diode-Resistor
+Logic), or something similar. As soon as you add the ability to
+disconnect, the system is no longer two state, it's three state, and
+three state is not binary.<br>
+            <br>
+Next, differential signaling.<br>
+If Hexa-State bits are implemented, as described in the pdf, and a full
+complement set of negative voltages are generated, we can have
+high-state differential signaling. Done this way, the conversion from
+binary to HSDS (High-State Differential Signaling) and back,
+essentially becomes a "nibble wide" SerDes! Hexa-State HSDS could
+transfer a full byte in two clock cycles, with the inherent noise
+immunity of differential signaling!<br>
             </td>
           </tr>
         </tbody>
